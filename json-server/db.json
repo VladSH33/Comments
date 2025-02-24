@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Даниил",
+      "content": "Вкататер",
+      "image": "/icons/daniil-icon.png"
+    },
+    {
+      "id": "2",
+      "username": "Влад",
+      "content": "Вкатун",
+      "image": "/icons/vlad-icon.png"
+    },
+    {
+      "id": "3",
+      "username": "Паша",
+      "content": "Frontend-разработчик",
+      "image": "/icons/pasha-icon.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": "43543534534534",
+      "userId": "2",
+      "isLike": false,
+      "text": "Дочка1",
+      "createdAt": "2025-02-22T19:09:38.087Z",
+      "parentId": "1740251374021"
+    },
+    {
+      "id": "1740305185010",
+      "userId": "1",
+      "isLike": false,
+      "text": "gfhfghfgh",
+      "createdAt": "2025-02-23T10:06:25.010Z",
+      "parentId": "parent",
+      "isDislike": false
+    },
+    {
+      "id": "1740335398922",
+      "userId": "1",
+      "isLike": true,
+      "text": "fghfgh",
+      "createdAt": "2025-02-23T18:29:58.922Z",
+      "parentId": "1740303575523",
+      "isDislike": false
+    },
+    {
+      "id": "1740335552089",
+      "userId": "1",
+      "isLike": false,
+      "text": "gfhfgh",
+      "createdAt": "2025-02-23T18:32:32.089Z",
+      "parentId": "1740305185010",
+      "isDislike": false
+    },
+    {
+      "id": "1740335576586",
+      "userId": "1",
+      "isLike": false,
+      "text": "Все круто!",
+      "createdAt": "2025-02-23T18:32:56.586Z",
+      "parentId": "parent",
+      "isDislike": false
+    },
+    {
+      "id": "1740335584874",
+      "userId": "1",
+      "isLike": false,
+      "text": "Ждем продолжения.",
+      "createdAt": "2025-02-23T18:33:04.874Z",
+      "parentId": "parent",
+      "isDislike": true
+    },
+    {
+      "id": "1740335605318",
+      "userId": "1",
+      "isLike": false,
+      "text": "Не согласен!",
+      "createdAt": "2025-02-23T18:33:25.318Z",
+      "parentId": "1740305185010",
+      "isDislike": false
+    },
+    {
+      "id": "1740335614181",
+      "userId": "1",
+      "isLike": false,
+      "text": "Чел ты....",
+      "createdAt": "2025-02-23T18:33:34.181Z",
+      "parentId": "1740305185010",
+      "isDislike": false
+    },
+    {
+      "id": "1740335620277",
+      "userId": "1",
+      "isLike": false,
+      "text": "Окей",
+      "createdAt": "2025-02-23T18:33:40.277Z",
+      "parentId": "1740335576586",
+      "isDislike": false
+    }
+  ]
+}
