@@ -1,0 +1,16 @@
+.rateContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.likeButton,
+.dislikeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

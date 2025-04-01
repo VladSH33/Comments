@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Пользователь",
+      "content": "описание",
+      "image": "/icons/user-icon.png"
+    },
+    {
+      "id": "2",
+      "username": "Даниил",
+      "content": "Вкататер",
+      "image": "/icons/daniil-icon.png"
+    },
+    {
+      "id": "3",
+      "username": "Влад",
+      "content": "Вкатун",
+      "image": "/icons/vlad-icon.png"
+    },
+    {
+      "id": "4",
+      "username": "Паша",
+      "content": "Frontend-разработчик",
+      "image": "/icons/pasha-icon.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1743454345447",
+      "userId": "1",
+      "parentId": null,
+      "isLike": false,
+      "isDislike": true,
+      "text": "апрарпар",
+      "createdAt": "2025-03-31T20:52:25.447Z",
+      "user": {
+        "id": "1",
+        "username": "Пользователь",
+        "content": "описание",
+        "icon": "User"
+      },
+      "replies": [
+        {
+          "id": "1743454728208",
+          "userId": "1",
+          "parentId": "1743454345447",
+          "isLike": false,
+          "isDislike": false,
+          "text": "@Пользователь апрарпар",
+          "createdAt": "2025-03-31T20:58:48.208Z",
+          "user": {
+            "id": "1",
+            "username": "Пользователь",
+            "content": "описание",
+            "image": "/icons/user-icon.png"
+          },
+          "replies": [],
+          "isReplyComment": true
+        }
+      ],
+      "isReplyComment": true
+    },
+    {
+      "id": "1743527735136",
+      "userId": "1",
+      "parentId": null,
+      "isLike": true,
+      "isDislike": false,
+      "text": "папрарапр",
+      "createdAt": "2025-04-01T17:15:35.136Z",
+      "user": {
+        "id": "1",
+        "username": "Пользователь",
+        "content": "описание",
+        "icon": "User"
+      },
+      "replies": [
+        {
+          "id": "1743527743209",
+          "userId": "1",
+          "parentId": "1743527735136",
+          "isLike": false,
+          "isDislike": false,
+          "text": "@Пользователь апрарапр",
+          "createdAt": "2025-04-01T17:15:43.209Z",
+          "user": {
+            "id": "1",
+            "username": "Пользователь",
+            "content": "описание",
+            "image": "/icons/user-icon.png"
+          },
+          "replies": [],
+          "isReplyComment": true
+        }
+      ],
+      "isReplyComment": true
+    },
+    {
+      "id": "1743527747881",
+      "userId": "1",
+      "parentId": null,
+      "isLike": false,
+      "isDislike": false,
+      "text": "апрапр",
+      "createdAt": "2025-04-01T17:15:47.881Z",
+      "user": {
+        "id": "1",
+        "username": "Пользователь",
+        "content": "описание",
+        "icon": "User"
+      },
+      "replies": [],
+      "isReplyComment": true
+    }
+  ]
+}
