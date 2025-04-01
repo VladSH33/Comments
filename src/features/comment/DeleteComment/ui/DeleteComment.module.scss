@@ -1,0 +1,13 @@
+.DeleteCommentButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 3px;
+  font-weight: bold;
+
+  &:hover {
+    color: red;
+  }
+}

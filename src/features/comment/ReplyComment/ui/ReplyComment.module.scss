@@ -1,0 +1,62 @@
+.replyComment {
+  display: flex;
+  gap: 1.5rem;
+
+  &UserAvatar {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  &Form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: end;
+    font-size: 0.8rem;
+  }
+
+  &Input {
+    font-size: 1rem;
+    width: 100%;
+    border-bottom: 1px solid #333333a8;
+    padding: 8px 0;
+  }
+
+  &ButtonsCancelAndSend {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &ButtonSend {
+    background: #007bff;
+    border-radius: 4rem;
+    font-size: 0.8rem;
+    color: #fff;
+
+    &:hover {
+      background: #0056b3;
+    }
+  }
+
+  &ButtonCancel {
+    color: #333;
+    border-radius: 4rem;
+
+    &:hover {
+      background: #a8a8a899;
+    }
+  }
+}
+
+.showButtonReplyComment {
+  color: #333;
+  font-size: 0.8rem;
+  border-radius: 4rem;
+  font-weight: bold;
+  padding: 0.5rem;
+
+  &:hover {
+    background: #a8a8a899;
+  }
+}

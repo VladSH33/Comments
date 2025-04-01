@@ -1,0 +1,33 @@
+.showRepliesButton {
+  width: 7rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  color: #2f7bff;
+
+  &:hover {
+    background: #2f7bff3e;
+    border-radius: 4rem;
+  }
+}
+
+.wrapperRateAndReplyComment {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.showButtonReplyComment {
+  color: #333;
+  font-size: 0.8rem;
+  border-radius: 4rem;
+  font-weight: bold;
+  padding: 0.5rem;
+
+  &:hover {
+    background: #a8a8a899;
+  }
+}
+
+.replyCommentContainer {
+  margin-top: 1rem;
+}
